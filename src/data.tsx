@@ -33,12 +33,12 @@ export const links = {
 }
 
 // Acknowledgements
-export const acknowledgements = "We thank xyz for abc..."
+export const acknowledgements = "L.M.K. is supported by the Rhodes Trust."
 
 // Citation
-export const citationId = "melaskyriazi2021finding"
-export const citationAuthors = "Luke Melas-Kyriazi and Christian Rupprecht and Iro Laina and Andrea Vedaldi"
-export const citationYear = "2021"
+export const citationId = "bai2024fixedpoint"
+export const citationAuthors = "Xingjian Bai and Luke Melas-Kyriazi"
+export const citationYear = "2024"
 export const citationBooktitle = "Arxiv"
 
 // Video

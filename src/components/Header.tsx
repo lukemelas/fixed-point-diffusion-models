@@ -5,7 +5,7 @@ import { title, institutions, authors } from 'data'
 
 
 export const Title = () => (
-  <Heading fontSize="2xl" pt="3rem" maxW="42rem" textAlign="center">{title}</Heading>
+  <Heading fontSize="3xl" fontWeight="light" pt="3rem" maxW="42rem" textAlign="center">{title}</Heading>
 )
 
 
@@ -18,12 +18,12 @@ export const Authors = () => (
             <NextLink href={author.url} passHref={true}>
               <ChakraLink>{author.name}</ChakraLink>
             </NextLink>
-            <sup> {author.institutions.toString()}</sup>
+            {/* <sup> {author.institutions.toString()}</sup> */}
           </Box>
         )
       }
     </Wrap>
-    <Wrap justify="center" pt="1rem" key="institutions">
+    {/* <Wrap justify="center" pt="1rem" key="institutions">
       {
         Object.entries(institutions).map(tuple =>
           <Box key={tuple[0]}>
@@ -32,6 +32,6 @@ export const Authors = () => (
           </Box>
         )
       }
-    </Wrap>
+    </Wrap> */}
   </Container>
 )
