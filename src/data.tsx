@@ -9,20 +9,19 @@ export const abstract = "We introduce the Fixed Point Diffusion Model (FPDM), a 
 
 // Institutions
 export const institutions = {
-    //   "Oxford University",
-    1: "Oxford University",
+  1: "Oxford University",
 }
 
 // Authors
 export const authors = [
   {
     'name': 'Xingjian Bai',
-    // 'institutions': [1],
+    'institutions': [1],
     'url': "https://xingjianbai.com/"
   },
   {
     'name': 'Luke Melas-Kyriazi',
-    // 'institutions': [1],
+    'institutions': [1],
     'url': "https://github.com/lukemelas/"
   },
 ]
