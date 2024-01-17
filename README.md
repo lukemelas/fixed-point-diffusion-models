@@ -1,19 +1,27 @@
 <div align="center">    
  
 ## Fixed Point Diffusion Models
-
-[https://lukemelas.github.io/fixed-point-diffusion-models/](Project Page)
+[Project Page](https://lukemelas.github.io/fixed-point-diffusion-models/) | [Paper](https://lukemelas.github.io/fixed-point-diffusion-models/)
 
 </div>
 
 ![DiT samples](visuals/splash-figure-v1.png)
 
+### Table of Contents
+- [Abstract](#abstract)
+- [Setup & Installation](#setup)
+- [Model](#model)
+- [Training](#training)
+- [Sampling](#sampling)
+- [Contribution](#contribution)
+- [Acknowledgements](#acknowledgements)
+
 ### Roadmap
 
--[x] Code and paper release
--[x] Colab example
--[ ] Pretrained model release _(coming soon)_
--[ ] Code walkthrough and tutorial
+- [x] Code and paper release
+- [x] Colab example
+- [ ] Pretrained model release _(coming soon)_
+- [ ] Code walkthrough and tutorial
 
 ### Abstract
 
@@ -61,11 +69,11 @@ python sample.py --ckpt {checkpoint-path-from-above} --fixed_point True --fixed_
 python sample.py --ckpt {checkpoint-path-from-above} --fixed_point True --fixed_point_pre_depth 1 --fixed_point_post_depth 1 --cfg_scale 4.0 --fixed_point_iters 12 --num_sampling_steps 40 --fixed_point_reuse_solution True
 ```
 
-## Contribution
+### Contribution
 
 Pull requests are welcome!
 
-## Acknowledgements
+### Acknowledgements
 
 * The strong baseline from DiT:
     ```
