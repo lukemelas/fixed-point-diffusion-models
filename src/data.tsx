@@ -28,7 +28,7 @@ export const authors = [
 
 // Links
 export const links = {
-  'paper': "#", // "https://arxiv.org/abs/2002.00733",
+  'paper': "https://arxiv.org/abs/2401.08741", // "https://arxiv.org/abs/2002.00733",
   'github': "https://github.com/lukemelas/fixed-point-diffusion-models"
 }
 
