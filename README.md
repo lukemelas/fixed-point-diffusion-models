@@ -1,7 +1,18 @@
-<div align="center">    
- 
-## Fixed Point Diffusion Models
-[Project Page](https://lukemelas.github.io/fixed-point-diffusion-models/) | [Paper](https://lukemelas.github.io/fixed-point-diffusion-models/)
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+### Fixed Point Diffusion Models
+
+[Project Page](https://lukemelas.github.io/fixed-point-diffusion-models/) · [Paper](https://arxiv.org/abs/2401.08741)
+
+<hr>
 
 </div>
 
@@ -18,8 +29,8 @@
 
 ### Roadmap
 
-- [x] Code and paper release
-- [x] Colab example
+- [x] Code and paper release 🎉🎉
+- [x] Jupyter notebook example
 - [ ] Pretrained model release _(coming soon)_
 - [ ] Code walkthrough and tutorial
 
@@ -99,3 +110,16 @@ Pull requests are welcome!
 
 * L.M.K. thanks the Rhodes Trust for their scholarship support.
 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/lukemelas/fixed-point-diffusion-models.svg?style=for-the-badge
+[contributors-url]: https://github.com/lukemelas/fixed-point-diffusion-models/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/lukemelas/fixed-point-diffusion-models.svg?style=for-the-badge
+[forks-url]: https://github.com/lukemelas/fixed-point-diffusion-models/network/members
+[stars-shield]: https://img.shields.io/github/stars/lukemelas/fixed-point-diffusion-models.svg?style=for-the-badge
+[stars-url]: https://github.com/lukemelas/fixed-point-diffusion-models/stargazers
+[issues-shield]: https://img.shields.io/github/issues/lukemelas/fixed-point-diffusion-models.svg?style=for-the-badge
+[issues-url]: https://github.com/lukemelas/fixed-point-diffusion-models/issues
+[license-shield]: https://img.shields.io/github/license/lukemelas/fixed-point-diffusion-models.svg?style=for-the-badge
+[license-url]: https://github.com/lukemelas/fixed-point-diffusion-models/blob/master/LICENSE.txt
